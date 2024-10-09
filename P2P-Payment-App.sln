@@ -5,35 +5,53 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Presentation", "AccountService\AccountService.Presentation\AccountService.Presentation.csproj", "{15717657-A9CD-4E1F-840F-8CAA5883B201}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Domain", "AccountService\AccountService.Domain\AccountService.Domain.csproj", "{17B7E8A0-7D28-43F5-9AA1-E39DD18F30E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Domain", "AccountService\Core\AccountService.Domain\AccountService.Domain.csproj", "{17B7E8A0-7D28-43F5-9AA1-E39DD18F30E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Application", "AccountService\AccountService.Application\AccountService.Application.csproj", "{9D96E67B-7BC2-44C9-B3F7-6B645BD1DF5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Application", "AccountService\Core\AccountService.Application\AccountService.Application.csproj", "{9D96E67B-7BC2-44C9-B3F7-6B645BD1DF5A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Infrastructure", "AccountService\AccountService.Infrastructure\AccountService.Infrastructure.csproj", "{CAE16DAB-E76A-4920-9E05-C8D1DA1ED8DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService.Infrastructure", "AccountService\Infrastructure\AccountService.Infrastructure\AccountService.Infrastructure.csproj", "{CAE16DAB-E76A-4920-9E05-C8D1DA1ED8DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountService", "AccountService", "{675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Presentation", "PaymentService\PaymentService.Presentation\PaymentService.Presentation.csproj", "{31146E0A-39E2-4FA8-909C-52470603ABE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Presentation", "PaymentService\PaymentService.Presentation\PaymentService.Presentation.csproj", "{31146E0A-39E2-4FA8-909C-52470603ABE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Domain", "PaymentService\PaymentService.Domain\PaymentService.Domain.csproj", "{F1B0C39C-35C4-4E98-9122-A4268A8C7E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Domain", "PaymentService\Core\PaymentService.Domain\PaymentService.Domain.csproj", "{F1B0C39C-35C4-4E98-9122-A4268A8C7E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Application", "PaymentService\PaymentService.Application\PaymentService.Application.csproj", "{B286528D-E3CB-474E-9471-82FC1760E6D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Application", "PaymentService\Core\PaymentService.Application\PaymentService.Application.csproj", "{B286528D-E3CB-474E-9471-82FC1760E6D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Infrastructure", "PaymentService\PaymentService.Infrastructure\PaymentService.Infrastructure.csproj", "{09CB0964-7FC8-49A8-9483-3FBA090477CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Infrastructure", "PaymentService\Infrastructure\PaymentService.Infrastructure\PaymentService.Infrastructure.csproj", "{09CB0964-7FC8-49A8-9483-3FBA090477CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{A763B32E-173F-4834-B4D2-3D646F6F52F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Presentation", "NotificationService\NotificationService.Presentation\NotificationService.Presentation.csproj", "{1C3A11F9-F159-4D7D-A399-41F539FCF2AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Presentation", "NotificationService\NotificationService.Presentation\NotificationService.Presentation.csproj", "{1C3A11F9-F159-4D7D-A399-41F539FCF2AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Application", "NotificationService\NotificationService.Application\NotificationService.Application.csproj", "{0CDC96FD-1E70-4A21-94FA-B8299E184BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Application", "NotificationService\Core\NotificationService.Application\NotificationService.Application.csproj", "{0CDC96FD-1E70-4A21-94FA-B8299E184BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Domain", "NotificationService\NotificationService.Domain\NotificationService.Domain.csproj", "{1968305B-558E-48CA-9755-2ABCA47665CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Domain", "NotificationService\Core\NotificationService.Domain\NotificationService.Domain.csproj", "{1968305B-558E-48CA-9755-2ABCA47665CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Infrastructure", "NotificationService\NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{D5BC9047-0802-49EF-A09C-F20C7720D90D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Infrastructure", "NotificationService\Infrastructure\NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{D5BC9047-0802-49EF-A09C-F20C7720D90D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{E31DE4E4-21F6-4911-85F6-419C9BD58A4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWay", "GateWay\GateWay.csproj", "{F96AF750-862D-4980-9B33-599EF1A737FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateWay", "GateWay\GateWay.csproj", "{F96AF750-862D-4980-9B33-599EF1A737FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{356A26C4-C054-47CA-9E15-B503AA2F5F10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C2124870-93D4-4F50-B1A9-D24D0E4967BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Persistence", "AccountService\Infrastructure\AccountService.Persistence\AccountService.Persistence.csproj", "{3F52F1BE-5BCC-4077-BEFD-708DE84165D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Persistence", "PaymentService\Infrastructure\PaymentService.Persistence\PaymentService.Persistence.csproj", "{36A19B56-9E6E-4A29-999D-3283DB47E1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Persistence", "NotificationService\Infrastructure\NotificationService.Persistence\NotificationService.Persistence.csproj", "{64570DF4-2A6F-4D72-A16F-C401494DBC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BB5DB4AC-8003-4185-BC0A-003576653AF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3CE98BFD-B521-4903-90F7-AD27E9576EB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8BCE2B47-2E39-49E6-9E8E-BC56F9C0076B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8C923903-7F7F-4A07-927F-CA000832F9DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,23 +111,44 @@ Global
 		{F96AF750-862D-4980-9B33-599EF1A737FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F96AF750-862D-4980-9B33-599EF1A737FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F96AF750-862D-4980-9B33-599EF1A737FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F52F1BE-5BCC-4077-BEFD-708DE84165D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F52F1BE-5BCC-4077-BEFD-708DE84165D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F52F1BE-5BCC-4077-BEFD-708DE84165D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F52F1BE-5BCC-4077-BEFD-708DE84165D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A19B56-9E6E-4A29-999D-3283DB47E1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A19B56-9E6E-4A29-999D-3283DB47E1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A19B56-9E6E-4A29-999D-3283DB47E1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A19B56-9E6E-4A29-999D-3283DB47E1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64570DF4-2A6F-4D72-A16F-C401494DBC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64570DF4-2A6F-4D72-A16F-C401494DBC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64570DF4-2A6F-4D72-A16F-C401494DBC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64570DF4-2A6F-4D72-A16F-C401494DBC7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{15717657-A9CD-4E1F-840F-8CAA5883B201} = {675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}
-		{17B7E8A0-7D28-43F5-9AA1-E39DD18F30E3} = {675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}
-		{9D96E67B-7BC2-44C9-B3F7-6B645BD1DF5A} = {675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}
-		{CAE16DAB-E76A-4920-9E05-C8D1DA1ED8DE} = {675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}
+		{17B7E8A0-7D28-43F5-9AA1-E39DD18F30E3} = {356A26C4-C054-47CA-9E15-B503AA2F5F10}
+		{9D96E67B-7BC2-44C9-B3F7-6B645BD1DF5A} = {356A26C4-C054-47CA-9E15-B503AA2F5F10}
+		{CAE16DAB-E76A-4920-9E05-C8D1DA1ED8DE} = {C2124870-93D4-4F50-B1A9-D24D0E4967BA}
 		{31146E0A-39E2-4FA8-909C-52470603ABE8} = {A763B32E-173F-4834-B4D2-3D646F6F52F3}
-		{F1B0C39C-35C4-4E98-9122-A4268A8C7E9C} = {A763B32E-173F-4834-B4D2-3D646F6F52F3}
-		{B286528D-E3CB-474E-9471-82FC1760E6D7} = {A763B32E-173F-4834-B4D2-3D646F6F52F3}
-		{09CB0964-7FC8-49A8-9483-3FBA090477CB} = {A763B32E-173F-4834-B4D2-3D646F6F52F3}
+		{F1B0C39C-35C4-4E98-9122-A4268A8C7E9C} = {8BCE2B47-2E39-49E6-9E8E-BC56F9C0076B}
+		{B286528D-E3CB-474E-9471-82FC1760E6D7} = {8BCE2B47-2E39-49E6-9E8E-BC56F9C0076B}
+		{09CB0964-7FC8-49A8-9483-3FBA090477CB} = {8C923903-7F7F-4A07-927F-CA000832F9DE}
 		{1C3A11F9-F159-4D7D-A399-41F539FCF2AE} = {E31DE4E4-21F6-4911-85F6-419C9BD58A4F}
-		{0CDC96FD-1E70-4A21-94FA-B8299E184BD3} = {E31DE4E4-21F6-4911-85F6-419C9BD58A4F}
-		{1968305B-558E-48CA-9755-2ABCA47665CB} = {E31DE4E4-21F6-4911-85F6-419C9BD58A4F}
-		{D5BC9047-0802-49EF-A09C-F20C7720D90D} = {E31DE4E4-21F6-4911-85F6-419C9BD58A4F}
+		{0CDC96FD-1E70-4A21-94FA-B8299E184BD3} = {BB5DB4AC-8003-4185-BC0A-003576653AF2}
+		{1968305B-558E-48CA-9755-2ABCA47665CB} = {BB5DB4AC-8003-4185-BC0A-003576653AF2}
+		{D5BC9047-0802-49EF-A09C-F20C7720D90D} = {3CE98BFD-B521-4903-90F7-AD27E9576EB4}
+		{356A26C4-C054-47CA-9E15-B503AA2F5F10} = {675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}
+		{C2124870-93D4-4F50-B1A9-D24D0E4967BA} = {675885CB-DE9E-43D4-A33D-3BBDFA0D2BE4}
+		{3F52F1BE-5BCC-4077-BEFD-708DE84165D8} = {C2124870-93D4-4F50-B1A9-D24D0E4967BA}
+		{36A19B56-9E6E-4A29-999D-3283DB47E1B5} = {8C923903-7F7F-4A07-927F-CA000832F9DE}
+		{64570DF4-2A6F-4D72-A16F-C401494DBC7E} = {3CE98BFD-B521-4903-90F7-AD27E9576EB4}
+		{BB5DB4AC-8003-4185-BC0A-003576653AF2} = {E31DE4E4-21F6-4911-85F6-419C9BD58A4F}
+		{3CE98BFD-B521-4903-90F7-AD27E9576EB4} = {E31DE4E4-21F6-4911-85F6-419C9BD58A4F}
+		{8BCE2B47-2E39-49E6-9E8E-BC56F9C0076B} = {A763B32E-173F-4834-B4D2-3D646F6F52F3}
+		{8C923903-7F7F-4A07-927F-CA000832F9DE} = {A763B32E-173F-4834-B4D2-3D646F6F52F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3038E57F-572E-41D9-90F2-92B092739A3B}
